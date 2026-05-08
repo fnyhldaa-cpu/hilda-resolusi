@@ -63,7 +63,7 @@ input[type=submit] {
     <select name="jenisCari">
       <option value="nama">Nama</option>
       <option value="prodi">Program Studi</option>
-      <option value="alamat">Alamat</option>
+  
     </select>
 
     <label>Data Pencarian</label>
@@ -107,7 +107,7 @@ if (isset($_POST['submit'])) {
                     <td>".$row["nim"]."</td>
                     <td>".$row["nama"]."</td>
                     <td>".$row["prodi"]."</td>
-                    <td>".$row["alamat"]."</td>
+                  
                   </tr>";
         }
         echo "</table>";
